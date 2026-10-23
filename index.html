@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Recipes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <nav class="navbar">
+        <a class="Logo" href="index.html">
+            <img src="assets/Recipelogo (1).png" alt="Logo" width="200" height="100">
+        </a>
+        <a class="active" href="index.html">Home</a>
+        <a class="static" href="aboutus.html">About us</a>
+        <a class="static" href="recipes.html">Recipes</a>
+        <a class="static" href="contact.html">Contact</a>
+    </nav>
+    <main id="content">
+   <button id="readButton" class="listen-btn" onclick="toggleSpeech()">
+        <span class="icon-circle">▶</span>
+        <span class="btn-text">Listen through the website page</span>
+    </button>
+    <div class="main-box">
+        <div class="left-side">
+            <h1>
+                <span class="first-part">QUICK</span> 
+                <span class="second-part">RECIPES</span>
+            </h1>
+            <p>College Kitchen shares quick and simple recipes for busy college students who don’t have much time to cook. Each recipe is designed to save time and effort by not taking in account for presentation, so you can spend less time in the kitchen.</p>
+        </div>
+        
+        <div class="right-side">
+            <!-- Ensure src points to an actual image file, e.g., "meal.jpg" -->
+            <img class="homefood" src="assets/homefood.jpg" alt="Image of a meal" width="450" height="400">
+        </div>
+    </div>
+    <div class="footer"> © 2026 College Kitchen. All rights reserved. </div>
+    </main>
+<script src="recipe.js"></script>
+</body>
+</html>
